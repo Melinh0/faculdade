@@ -5,8 +5,11 @@
 #include <stdio.h>
 
 int main(void){
-    float C;
     float F;
+    float C;
 
-    print("")
+    printf("Digite a temperatura em graus celcius: ");
+    scanf("%f", &C);
+    F = (9*C + 160) / 5;
+    printf("O valor em fahrenheit é %0.1f\n", F);
 }
